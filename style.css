@@ -1,0 +1,106 @@
+#myHeader{
+    display: flex;
+    justify-content: center;
+    color: white;
+   
+    
+
+}
+
+/* this is the styling of the boster box*/
+#boosterBox{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    position: relative;
+    top: 130px;
+    border: 3px solid white;
+    color: white;
+   border-bottom: 300px;
+   flex-direction: column;
+   
+   overflow: auto;
+    
+
+
+    
+    
+
+}
+
+.mainContent{
+    background-color: black;
+}
+
+.mainButton{
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 3px;
+    width: 150;
+}
+
+
+#counter{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-self: auto;
+    flex-direction: row;
+    position: relative;
+    top: 125px;
+
+    
+    
+
+
+
+}
+
+.button{
+    width: 95%;
+    height: fit-content;
+    text-align: center;
+    border: white 1px solid;
+    border-radius: 10px;
+}
+
+.invisible{
+    display: none;
+
+}
+
+#counter1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-self: auto;
+    flex-direction: row;
+    position: relative;
+    top: 125px;
+
+    
+    
+
+
+
+}
+.endGameButton{
+    position: absolute;
+    bottom: 30px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 3px;
+    width: 150;
+}
+
+.play{
+    position: absolute;
+    text-align: end;
+    color: black;
+    flex-direction: row;
+    display: flexbox;
+}
